@@ -6,7 +6,9 @@ import { Reveal, SplitText, Stagger, StaggerItem } from "@/components/ui/motion"
 
 export const metadata: Metadata = {
   title: "Facilities",
-  description: "Labs, library, sports, music room and more at R.D. Public School, Tekari.",
+  description:
+    "Science labs, computer lab, library, playgrounds, music room and more on the 9,134 sq. m campus of R.D. Public School, Tekari, Gaya.",
+  alternates: { canonical: "/facilities" },
 };
 
 export default function FacilitiesPage() {

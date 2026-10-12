@@ -4,8 +4,10 @@ import { FilterGrid } from "@/components/filter-grid";
 import { PageHeader } from "@/components/page-header";
 
 export const metadata: Metadata = {
-  title: "Gallery",
-  description: "Celebrations, competitions, sports and academic events at R.D. Public School, Tekari.",
+  title: "Photo Gallery",
+  description:
+    "Photos of celebrations, competitions, sports, excursions and academic events at R.D. Public School, Tekari, Gaya.",
+  alternates: { canonical: "/gallery" },
 };
 
 export default function GalleryPage() {

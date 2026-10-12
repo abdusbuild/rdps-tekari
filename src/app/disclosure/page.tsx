@@ -6,7 +6,9 @@ import { Reveal, SplitText, Stagger, StaggerItem } from "@/components/ui/motion"
 
 export const metadata: Metadata = {
   title: "Mandatory Public Disclosure",
-  description: "CBSE mandatory public disclosure of R.D. Public School, Tekari — affiliation, certificates, results and staff details.",
+  description:
+    "CBSE mandatory public disclosure of R.D. Public School, Tekari (Affiliation No. 330422, School Code 65420) — certificates, infrastructure, results and staff details.",
+  alternates: { canonical: "/disclosure" },
 };
 
 export default function DisclosurePage() {

@@ -9,7 +9,9 @@ import { ClipReveal, Parallax, Reveal, SplitText, Stagger, StaggerItem, Tilt } f
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "The story, vision, mission and values of R.D. Public School, Tekari — established in 2009.",
+  description:
+    "Learn about R.D. Public School, Tekari (Gaya) — our history since 2009, vision, mission, values and the leadership guiding this CBSE affiliated school.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

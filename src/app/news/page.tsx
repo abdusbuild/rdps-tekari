@@ -7,7 +7,9 @@ import { ClipReveal, Reveal, SplitText, Stagger, StaggerItem } from "@/component
 
 export const metadata: Metadata = {
   title: "News & Notices",
-  description: "Latest news, notices and event updates from R.D. Public School, Tekari.",
+  description:
+    "Latest news, notices, holidays and event updates from R.D. Public School, Tekari, Gaya.",
+  alternates: { canonical: "/news" },
 };
 
 export default function NewsPage() {

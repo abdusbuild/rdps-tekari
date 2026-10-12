@@ -5,6 +5,7 @@ import { LegalPage, type LegalSection } from "@/components/legal";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "How R.D. Public School, Tekari collects, uses and protects personal information shared through this website.",
+  alternates: { canonical: "/privacy-policy" },
 };
 
 const contact = (

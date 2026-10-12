@@ -7,7 +7,9 @@ import { ClipReveal, Counter, Reveal, SplitText, Stagger, StaggerItem } from "@/
 
 export const metadata: Metadata = {
   title: "Faculty & Staff",
-  description: "Meet the qualified and dedicated teachers and staff of R.D. Public School, Tekari.",
+  description:
+    "Meet the principal, qualified teachers and staff of R.D. Public School, Tekari — a CBSE affiliated school in Gaya, Bihar.",
+  alternates: { canonical: "/faculty" },
 };
 
 export default function FacultyPage() {

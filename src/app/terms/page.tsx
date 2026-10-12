@@ -6,6 +6,7 @@ import { LegalPage, type LegalSection } from "@/components/legal";
 export const metadata: Metadata = {
   title: "Terms of Use",
   description: "Terms and conditions for using the website of R.D. Public School, Tekari.",
+  alternates: { canonical: "/terms" },
 };
 
 const sections: LegalSection[] = [

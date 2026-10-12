@@ -20,17 +20,39 @@ const tiro = Tiro_Devanagari_Hindi({
 export const metadata: Metadata = {
   metadataBase: new URL("https://rdpublicschool.org.in"),
   title: {
-    default: "R.D. Public School, Tekari — CBSE Affiliated School in Gaya",
-    template: "%s · R.D. Public School, Tekari",
+    default: "R.D. Public School, Tekari | CBSE School in Tekari, Gaya (Bihar)",
+    template: "%s | R.D. Public School, Tekari",
   },
   description:
-    "R.D. Public School (RDPS), Vikram Vihar, Tekari, Gaya — a CBSE affiliated school (No. 330422) established in 2009, offering quality education for the holistic development of every child.",
-  keywords: ["RD Public School", "RDPS Tekari", "CBSE school Gaya", "school in Tekari", "Vikram Vihar school"],
-  icons: { icon: "/images/logo.png", apple: "/images/logo.png" },
+    "R.D. Public School (RDPS), Vikram Vihar, Tekari, Gaya — CBSE affiliated (No. 330422) school since 2009 for Class I–XII with Science stream, well-equipped labs, library, computer lab and sports. Admissions, fees & contact.",
+  applicationName: "R.D. Public School",
+  keywords: [
+    "RD Public School",
+    "R.D. Public School Tekari",
+    "RDPS Tekari",
+    "CBSE school in Tekari",
+    "CBSE school in Gaya",
+    "best school in Tekari",
+    "school near S.N. Sinha College Tekari",
+    "school admission Tekari",
+    "Vikram Vihar Tekari",
+    "CBSE affiliation 330422",
+  ],
+  authors: [{ name: "R.D. Public School" }],
+  creator: "R.D. Public School",
+  publisher: "R.D. Public School",
+  category: "education",
+  formatDetection: { telephone: true, email: true, address: true },
   openGraph: {
     type: "website",
+    locale: "en_IN",
     siteName: "R.D. Public School, Tekari",
-    images: ["/images/photos/building.png"],
+  },
+  twitter: { card: "summary_large_image" },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
   },
 };
 

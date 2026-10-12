@@ -6,8 +6,10 @@ import { PageHeader } from "@/components/page-header";
 import { Reveal, SplitText, Stagger, StaggerItem } from "@/components/ui/motion";
 
 export const metadata: Metadata = {
-  title: "Contact",
-  description: "Visit, call or write to R.D. Public School, Vikram Vihar, Tekari, Gaya.",
+  title: "Contact Us",
+  description:
+    "Address, phone numbers, email, office hours and map for R.D. Public School, Vikram Vihar, near S.N. Sinha College, Tekari, Gaya, Bihar — 824236.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

@@ -9,8 +9,10 @@ import { Button } from "@/components/ui/kit";
 import { ClipReveal, Reveal, SplitText, Stagger, StaggerItem } from "@/components/ui/motion";
 
 export const metadata: Metadata = {
-  title: "Admissions",
-  description: "Admission process, required documents, fee structure and academic calendar of R.D. Public School, Tekari.",
+  title: "Admissions 2026-27",
+  description:
+    "Admission process, eligibility, required documents, fee structure and academic calendar for Class I–XII at R.D. Public School, Tekari, Gaya — a CBSE school.",
+  alternates: { canonical: "/admissions" },
 };
 
 export default function AdmissionsPage() {
